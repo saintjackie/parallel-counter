@@ -10,7 +10,7 @@ public class Counter implements Runnable{
 
     @Override
     public void run() {
-        for(long i = 0;i<51;i++){
+        for(long i = 0;i<100;i++){
             increaseValue();
             try {
                 Thread.sleep(120);
